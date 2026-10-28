@@ -6,20 +6,20 @@ using namespace std;
 int main() {
     ListaDoble miLista;
 
-    cout << "=== INSERTANDO DATOS QUEMADOS ===\n";
+    cout << "Datos\n";
     miLista.insertar("Carlos");
     miLista.insertar("Ana");
     miLista.insertar("Mateo");
     miLista.insertar("Sofia");
 
-    cout << "\n=== MOSTRAR LISTA ORIGINAL ===\n";
+    cout << "\nLista original \n";
     miLista.imprimirAdelante();
     miLista.imprimirAtras();
 
-    cout << "\n=== PRUEBA DE INVERSION ===\n";
+    cout << "\n prueba de intertir \n";
     miLista.invertir();
 
-    cout << "\n=== LISTA DESPUES DE INVERTIR ===\n";
+    cout << "\ndespues de invertir \n";
     miLista.imprimirAdelante();
     miLista.imprimirAtras();
 

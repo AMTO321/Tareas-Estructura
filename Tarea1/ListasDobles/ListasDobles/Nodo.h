@@ -14,7 +14,7 @@ private:
 public:
     Nodo(string n);
 
-    // Getters y Setters
+   
     string getNombre();
     void setNombre(string n);
 
